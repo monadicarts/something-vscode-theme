@@ -1,0 +1,45 @@
+{
+  "name": "something-theme",
+  "displayName": "Something Theme",
+  "description": "Something is not nothing, it's a dark theme with beautiful and simple elements.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/monadicarts/something-vscode-theme.git"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "images/super-s.png",
+  "galleryBanner": {
+    "color": "#0F0F0E",  
+    "theme": "dark"
+  },
+  "publisher": "Monadica",
+  "license": "GPLv3.0",
+  "keywords": [
+    "theme",
+    "dark",
+    "dark-theme",
+    "dark-mode",
+    "color-theme",
+    "something", 
+    "theme",
+    "vscode-theme",
+    "vscode",
+    "visual-studio-code",
+    "monadica"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Something Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Something-color-theme.json"
+      }
+    ]
+  }
+}
