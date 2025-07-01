@@ -2,7 +2,7 @@
   "name": "something-theme",
   "displayName": "Something Theme",
   "description": "Something is not nothing, it's a dark theme with beautiful and simple elements.",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.100.0"
   },

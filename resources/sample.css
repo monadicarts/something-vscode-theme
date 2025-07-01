@@ -1,0 +1,26 @@
+/* CSS Sample for Something Theme */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* This is a block comment */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #0F0F0E; /* Match theme background */
+  color: #ffffff;
+}
+
+.container #main-content.active {
+  border: 1px solid #B07CC3;
+  padding: 20px 1.5rem;
+  margin-top: 5vh;
+}
+
+a:hover {
+  color: #82AAFF;
+  text-decoration: underline;
+}
+
+/* Attribute selector */
+[data-id="special-element"]::before {
+  content: '✨';
+}

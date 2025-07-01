@@ -1,0 +1,12 @@
+# YAML Sample for Something Theme
+---
+name: Something Theme Sample
+version: 1.0.0
+isSample: true
+author: null
+
+config:
+  nested:
+    - item1
+    - item2
+  another_key: "A string value"
