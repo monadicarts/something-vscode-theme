@@ -6,6 +6,9 @@
 # VS Code extension specific
 *.vsix
 .vscode-test/
+.clj-kondo/
+.lsp/
+.portal/
 
 # OS generated files
 .DS_Store
